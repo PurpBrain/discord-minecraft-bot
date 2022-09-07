@@ -1,1 +1,2 @@
-# discord-minecraft-bot
+# McServer
+Server minecraft

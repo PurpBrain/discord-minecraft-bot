@@ -1,0 +1,32 @@
+{
+  "name": "discord-minecraft-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord to start minecraft server",
+  "main": "mcserver-discord-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurpBrain/discord-minecraft-bot.git"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Minecraft",
+    "Server",
+    "Start"
+  ],
+  "author": "PurpBrain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PurpBrain/discord-minecraft-bot/issues"
+  },
+  "homepage": "https://github.com/PurpBrain/discord-minecraft-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "shelljs": "^0.8.5",
+    "tree-kill": "^1.2.2"
+  }
+}
