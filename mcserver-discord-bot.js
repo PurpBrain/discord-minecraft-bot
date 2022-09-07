@@ -1,6 +1,4 @@
 var kill = require('tree-kill');
-// var spawn = require('child_process').spawn;
-// const { exec } = require('child_process');
 const shell = require('shelljs')
 const { Client, GatewayIntentBits, ActivityType, SlashCommandBuilder, Routes } = require('discord.js');
 const { REST } = require('@discordjs/rest');
