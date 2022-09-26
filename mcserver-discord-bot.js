@@ -1,5 +1,6 @@
 var kill = require('tree-kill');
 const shell = require('shelljs')
+const spawn = require('child_process').spawn
 const { Client, GatewayIntentBits, ActivityType, SlashCommandBuilder, Routes } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 
@@ -61,7 +62,8 @@ client.on("interactionCreate", async interaction => {
             await interaction.reply("**Starting Minecraft server. This will take a minute or so.**");
             // client.user.setActivity('Server ✅', { type: ActivityType.WATCHING })
             // Start the server
-            shell.exec('./start.sh')
+            mcserver = spawn('./start.sh')
+            console.log('ok');
             // mcserver = spawn(MC_SERVER_START_SCRIPT);
 
             // Server log -> script log
